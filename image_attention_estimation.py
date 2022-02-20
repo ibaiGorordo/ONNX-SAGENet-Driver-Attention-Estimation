@@ -4,7 +4,7 @@ from imread_from_url import imread_from_url
 
 from sagenet import SAGENet
 
-model_path = "models/sagenet_sim.onnx"
+model_path = "models/picanet_sage_224x224/picanet_sage_224x224.onnx"
 attention_estimator = SAGENet(model_path)
 
 # Read inference image

@@ -6,7 +6,7 @@ from sagenet import SAGENet
 cap = cv2.VideoCapture(0)
 
 # Initialize model
-model_path = "models/sagenet_sim.onnx"
+model_path = "models/picanet_sage_224x224/picanet_sage_224x224.onnx"
 attention_estimator = SAGENet(model_path)
 
 cv2.namedWindow("Attention heatmap", cv2.WINDOW_NORMAL)	

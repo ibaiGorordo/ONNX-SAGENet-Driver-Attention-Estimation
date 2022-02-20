@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 	from imread_from_url import imread_from_url
 
-	model_path = "../models/sagenet_sim.onnx"
+	model_path = "../models/picanet_sage_224x224/picanet_sage_224x224.onnx"
 
 	img = imread_from_url("https://upload.wikimedia.org/wikipedia/commons/b/b3/Salt_transport_by_a_camel_train_on_Lake_Assale_%28Karum%29_in_Ethiopia.jpg")
 

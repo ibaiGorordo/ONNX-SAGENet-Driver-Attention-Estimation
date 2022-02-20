@@ -16,7 +16,7 @@ start_time = 10 # skip first {start_time} seconds
 cap.set(cv2.CAP_PROP_POS_FRAMES, start_time*30)
 
 # Initialize model
-model_path = "models/sagenet_sim.onnx"
+model_path = "models/picanet_sage_224x224/picanet_sage_224x224.onnx"
 attention_estimator = SAGENet(model_path)
 
 cv2.namedWindow("Attention heatmap", cv2.WINDOW_NORMAL)	
