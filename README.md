@@ -16,7 +16,7 @@ pip install pafy youtube_dl=>2021.12.17
 ```
 
 # Pretrained model
-Download the original model (https://drive.google.com/file/d/1GBCxIwAtuaC8EjMmQo4d9kVaGQzZaUZr/view?usp=sharing) and save it into the **[models](https://github.com/ibaiGorordo/ONNX-SAGENet-Driver-Attention-Estimation/tree/main/models)** folder. 
+Download the original model (https://drive.google.com/file/d/14VScpTQ8cvKwIfWp44oSTjyD-u_cnUxe/view?usp=sharing) and save it into the **[models](https://github.com/ibaiGorordo/ONNX-SAGENet-Driver-Attention-Estimation/tree/main/models)** folder. 
 
 # Original Repository
 The [original repository](https://github.com/anwesanpal/SAGENet_demo) also contains code for estimating the driver's attention in Pytorch.
